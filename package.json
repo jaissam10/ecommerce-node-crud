@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-node",
+  "version": "1.0.0",
+  "description": "Ecommerce Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Sameer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  }
+}

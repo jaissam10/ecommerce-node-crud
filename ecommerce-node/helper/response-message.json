@@ -1,0 +1,10 @@
+{
+    "INTERNAL_SERVER_ERROR": "Internal Server Error",
+    "REQUIRED": "All paramters are required",
+    "ALREADY_EXIST": "Product already exists",
+    "CREATED": "Product Added Successfully",
+    "UPDATED": "Product Updated Successfully",
+    "NOT_FOUND": "Product Not Found",
+    "DELETED": "Product Deleted Successfully",
+    "ADDED_TO_CART": "Product Added To Cart"
+}
