@@ -23,10 +23,12 @@ db.on('error', ()=> {
 db.on('open', () => {
     console.log('db connected');
 })
-
+app.get('/index.html', () => {
+    res.send('Hello..You opened ')
+})
 app.use('/api/v1/product', require('./routes/product-route'));
 app.use('/api/v1/cart', require('./routes/cart-route'));
 
-let listener = app.listen(8000, () => {
+let listener = app.listen(3000, () => {
     console.log(`server is listening on port =>> ${listener.address().port}`);
 })
